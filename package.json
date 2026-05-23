@@ -4,10 +4,9 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "tsx watch ./src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
-    "vercel-build": "tsc"
+    "start": "node dist/server.ts"
   },
   "keywords": [],
   "author": "",
